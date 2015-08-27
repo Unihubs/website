@@ -1,0 +1,13 @@
+# Site settings
+title: UnitedHubs
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  UnitedHubs is a organization of some IT teams and studios. They share things
+  with each other and express different technologies between members.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://unihubs.com" # the base hostname & protocol for your site
+twitter_username:
+github_username: unihubs
+
+# Build settings
+markdown: kramdown

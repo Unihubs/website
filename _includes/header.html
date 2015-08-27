@@ -1,0 +1,17 @@
+<div class="zo-navbar zo-navbar--dark">
+    <a href="#" class="zo-navbar__link zo-navbar__toggle zo-navbar__link--bgDark" role="button" data-zo-navbar="#nav2"></a>
+    <h2 class="zo-navbar__brand">
+        <a href="{{ site.baseurl }}/" class="zo-navbar__link zo-navbar__brand__link zo-navbar__link--bgDark">{{ site.title }}</a>
+    </h2>
+    <div class="zo-navbar__nav zo-navbar__nav--bgDark" id="nav2">
+        <ul class="zo-navbar__list zo-navbar__list--right">
+            {% for page in site.pages %}
+              {% if page.title %}
+                <li class="zo-navbar__item">
+                    <a href="{{ page.url | prepend: site.baseurl }}" class="zo-navbar__link zo-navbar__nav__link zo-navbar__link--bgDark">{{ page.title }}</a>
+                </li>
+               {% endif %}
+             {% endfor %}
+        </ul>
+    </div>
+</div>

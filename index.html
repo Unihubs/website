@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="home">
+    <h1>UnitedHubs</h1>
+    <h2>Smart hubs get united.</h2>
+    <a href="/about" role="button" class="zo-ghostBtn zo--round zo-ghostBtn--primary">Learn more</a>
+</div>
+
+<h3>Blog Posts</h3>
+<ul class="zo-list zo-list--ul">
+  {% for post in site.posts %}
+    <li class="zo-list__item">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

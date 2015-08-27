@@ -1,0 +1,17 @@
+img {
+    width: 100%;
+    /* Prevent overflow. */
+}
+.icon svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.site-footer {
+    background: #eee;
+}
+.home {
+    text-align: center;
+    margin: 3em 0;
+}
