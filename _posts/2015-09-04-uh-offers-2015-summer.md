@@ -6,7 +6,6 @@ author: UnitedHubs
 categories: jobs
 ---
 
-# 联合社团组织2015夏季纳新计划
 
 ## 个人
 
