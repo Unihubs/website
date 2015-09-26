@@ -1,3 +1,4 @@
+---
 layout: post
 title: About School Organizations & something new
 date: 2015-09-26 22:23:00
